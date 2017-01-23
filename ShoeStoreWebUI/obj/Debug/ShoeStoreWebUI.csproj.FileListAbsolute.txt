@@ -45,3 +45,7 @@ C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\bin\System.
 C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\obj\Debug\ShoeStoreWebUI.csprojResolveAssemblyReference.cache
 C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\obj\Debug\ShoeStoreWebUI.dll
 C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\obj\Debug\ShoeStoreWebUI.pdb
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\bin\EntityFramework.dll
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\bin\EntityFramework.xml
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreWebUI\bin\EntityFramework.SqlServer.xml

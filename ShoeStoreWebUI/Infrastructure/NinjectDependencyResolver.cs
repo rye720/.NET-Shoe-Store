@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Moq;
 using Ninject;
 using ShoeStoreDomain.Abstract;
+using ShoeStoreDomain.Concrete;
 using ShoeStoreDomain.Entities;
 
 namespace ShoeStoreWebUI.Infrastructure
@@ -33,6 +34,9 @@ namespace ShoeStoreWebUI.Infrastructure
         private void AddBindings()
         {
             //we'll put bindings here
+
+            //this was a mock, used to show products before we set up the localdb
+            /*
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
             mock.Setup(m => m.Products).Returns(new List<Product>
             {
@@ -42,6 +46,9 @@ namespace ShoeStoreWebUI.Infrastructure
             });
 
             kernel.Bind<IProductRepository>().ToConstant(mock.Object);
+            */
+
+            kernel.Bind<IProductRepository>().To<EFProductRepository>();
         }
     }
 }

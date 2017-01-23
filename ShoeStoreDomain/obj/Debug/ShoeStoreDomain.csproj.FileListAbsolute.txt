@@ -16,3 +16,8 @@ C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\bin\Debug\
 C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\obj\Debug\ShoeStoreDomain.csprojResolveAssemblyReference.cache
 C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\obj\Debug\ShoeStoreDomain.dll
 C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\obj\Debug\ShoeStoreDomain.pdb
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\bin\Debug\ShoeStoreDomain.dll.config
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\bin\Debug\EntityFramework.dll
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\bin\Debug\EntityFramework.xml
+C:\Users\ryan.compton\Desktop\ProMVC5 Progs\ShoeStore\ShoeStoreDomain\bin\Debug\EntityFramework.SqlServer.xml
