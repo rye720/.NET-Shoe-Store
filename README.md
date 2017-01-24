@@ -13,4 +13,8 @@ by Ryan Compton).
 The products and info on this site are fictional, but this could be used
 as a template of sorts for a real online shop..
 </div>
+
+<div>Note: you'll need your own data. I used a localdb for this demo project,
+as was used in Freeman's text.
+</div>
 </html>
