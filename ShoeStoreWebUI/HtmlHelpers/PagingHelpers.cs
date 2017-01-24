@@ -18,7 +18,7 @@ namespace ShoeStoreWebUI.HtmlHelpers
             {
                 TagBuilder tag = new TagBuilder("a");
                 tag.MergeAttribute("href", pageUrl(i));
-                tag.InnerHtml = i.ToString();
+                tag.InnerHtml = i.ToString() + " ";
                 if (i == pi.CurrentPage)
                 {
                     tag.AddCssClass("selected");
