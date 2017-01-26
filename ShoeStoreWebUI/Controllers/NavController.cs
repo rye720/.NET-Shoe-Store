@@ -1,17 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
+using ShoeStoreDomain.Abstract;
+using System.Linq;
+
 
 namespace ShoeStoreWebUI.Controllers
 {
     public class NavController : Controller
     {
-        // GET: Nav
-        public string Menu()
+        private IProductRepository repository;
+
+        public NavController(IProductRepository repo)
         {
-            return "What's up from the NavController";
+            repository = repo;
+        }
+
+        public PartialViewResult Menu(string category = null)
+        {
+            ViewBag.SelectedCategory = category;
+
+            IEnumerable<string> categories = repository.Products
+                .Select(x => x.Category)
+                .Distinct()
+                .OrderBy(x => x);
+
+            return PartialView(categories);
         }
     }
 }

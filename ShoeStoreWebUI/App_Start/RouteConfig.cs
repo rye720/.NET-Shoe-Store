@@ -22,14 +22,15 @@ namespace ShoeStoreWebUI
             }
            );
 
-            routes.MapRoute(null, "Page{page}",
+            routes.MapRoute(null, 
+                "Page{page}",
                 new { controller = "Product", action = "List", category = (string)null },
                 new { page = @"\d+" }
                 );
 
             routes.MapRoute(null,
                 "{category}",
-            new { Ccontroller = "Product", action = "List", page = 1 });
+            new { controller = "Product", action = "List", page = 1 });
 
             routes.MapRoute(null,
                 "{category}/Page{page}",
