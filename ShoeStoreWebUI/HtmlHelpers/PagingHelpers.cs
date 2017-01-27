@@ -14,7 +14,7 @@ namespace ShoeStoreWebUI.HtmlHelpers
             HtmlHelper html, PagingInfo pi, Func<int, string> pageUrl)
         {
             StringBuilder result = new StringBuilder();
-            for (int i = 1; i <= pi.TotalPages; i++)
+            for (int i = pi.TotalPages; i >= 1; i--)
             {
                 TagBuilder tag = new TagBuilder("a");
                 tag.MergeAttribute("href", pageUrl(i));
@@ -24,7 +24,7 @@ namespace ShoeStoreWebUI.HtmlHelpers
                     tag.AddCssClass("selected");
                     tag.AddCssClass("btn-primary");
                 }
-                tag.AddCssClass("selected");
+                tag.AddCssClass("btn btn-default label-danger pull-right");
                 result.Append(tag.ToString());
             }
             return MvcHtmlString.Create(result.ToString());
